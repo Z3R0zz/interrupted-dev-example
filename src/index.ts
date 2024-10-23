@@ -60,7 +60,7 @@ app.post(
 
       // Here we perform the post request to the interrupted dev endpoint
       const response = await axios.post<ApiResponse>(
-        `${process.env.INT_BASE_URL}/upload`,
+        `${process.env.INTD_BASE_URL}/upload`,
         formData,
         {
           headers: {
@@ -89,7 +89,7 @@ app.get("/u/:filename", async (req: Request, res: Response) => {
   try {
     // Here we send a get request to interrupted's dev endpoint to fetch the file data
     const response = await axios.get<ApiResponse>(
-      `${process.env.INT_BASE_URL}/upload/file/${filename}`,
+      `${process.env.INTD_BASE_URL}/upload/file/${filename}`,
       {
         headers: {
           Authorization: "Bearer " + process.env.INTD_API_KEY, // Api key for auth or else our request will be unauthorized
