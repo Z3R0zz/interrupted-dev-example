@@ -15,7 +15,7 @@ Before you can run this project, make sure you have the following:
 ### 1. Clone the repository
 
   ```bash
-  git clone https://github.com/yourusername/interrupted-dev-example.git
+  git clone https://github.com/Z3R0zz/interrupted-dev-example.git
   cd interrupted-dev-example
   ```
 ### 2. Install dependencies Run the following command to install all project dependencies:
