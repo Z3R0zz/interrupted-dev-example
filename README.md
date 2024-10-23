@@ -3,14 +3,14 @@ This project demonstrates how to interact with the Interrupted.me's developer AP
 
 ## Features
 - File upload with metadata (using multer for handling file uploads).
-- Integration with Interrupted.dev API for file uploads and retrieval.
+- Integration with [dev.interrpted.me](https://interrupted.me/) API for file uploads and retrieval.
 - Rendering dynamic pages using EJS.
 
 ## Prerequisites
 Before you can run this project, make sure you have the following:
 
 - Node.js (v16.x or higher)
-- TypeScript (installed globally if not included in your project)
+- TypeScript (installed globally)
 ## Setup
 ### 1. Clone the repository
 
