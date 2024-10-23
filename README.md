@@ -3,7 +3,7 @@ This project demonstrates how to interact with the Interrupted.me's developer AP
 
 ## Features
 - File upload with metadata (using multer for handling file uploads).
-- Integration with [dev.interrpted.me](https://interrupted.me/) API for file uploads and retrieval.
+- Integration with [dev.interrupted.me](https://interrupted.me/) API for file uploads and retrieval.
 - Rendering dynamic pages using EJS.
 
 ## Prerequisites
