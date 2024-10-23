@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= fileData.file_name %></title>
+
+    <!--  Here you can set your own meta tags for the upload to get a cool looking embed on discord  -->
+    <meta name="theme-color" content="#780b0b" />
+    <meta property="og:title" content=<%= fileData.file_name %> />
+    <meta property="og:type" content="image" />
+    <meta property="og:image" content=<%= fileUrl %> />
+    <meta property="og:image:secure_url" content=<%= fileUrl %> />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content=<%= fileData.file_name %> />
+    <meta property="og:description" content=<%= fileData.file_name %> />
+    <meta name="twitter:image" content=<%= fileUrl %> />
+    <meta property="og:site_name" content="interrupted.me">
+    
+</head>
+<body>
+    <h1>File Information</h1>
+
+    <p>File Name: <%= fileData.file_name %></p>
+    <p>File Path: <%= fileData.file_path %></p>
+    <p>File Size: <%= fileData.file_size %> bytes</p>
+    <p>Metadata: <%= fileData.metadata %></p>
+
+    <h2>Download the file:</h2>
+    <img src="<%= fileUrl %>" alt="Image">
+    <a href="<%= fileUrl %>">Download File</a>
+</body>
+</html>
